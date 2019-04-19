@@ -17,17 +17,19 @@ m, n = map(int, input().split())
 
 # 配列として
 m_list = list(map(int, input().split()))
+
 # タプルとして
 m_list = tuple(map(int, input().split()))
-
 ```
 
 ## 複数行
 
 ### 1列
 
+
+だいたい1行目の入力として行数(n)が提供される。
+
 ```
-# だいたい1行目の入力として行数(n)が提供される
 s_list = [input() for i in range(n)]
 i_list  = [int(input()) for v in range(n)]
 
@@ -44,13 +46,39 @@ while True:
 ```
 # 文字列として
 s_list = [input().split() for i in range(n)]
+
 # 数値として
 s_list = [map(int, input().split()) for i in range(n)]
 ```
 
 # list
 
-## 逆順
+## ソート
+
+### 昇順・降順
+
+ソートされた新しいリストを作る。
+
+```
+sorted(arr)
+
+# 降順
+sorted(arr, reverse=True)
+```
+
+既に存在するリストをソートする。
+
+```
+arr.sort()
+
+# 降順
+arr.sort(reverse=True)
+```
+
+### 逆順
+
+順番を入れ替える。
+
 ```
 sample_list = sample_list[::-1]
 ```

@@ -61,8 +61,11 @@ m_list = tuple(map(int, input().split()))
 ```
 s_list = [input() for i in range(n)]
 i_list  = [int(input()) for v in range(n)]
+```
 
-# 行数指定がない場合はtry-exceptを使う
+行数指定がない場合はtry-exceptを使う。
+
+```
 while True:
     try:
         a_list = list(map(int, input().split()))

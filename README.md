@@ -100,3 +100,32 @@ arr.sort(reverse=True)
 ```
 sample_list = sample_list[::-1]
 ```
+
+# 数値
+
+## 平方数
+
+```
+sqr = sqn ** 0.5
+sqr = pow(sqn, 0.5)
+```
+
+# 文法
+
+### range
+
+https://docs.python.org/ja/3/library/stdtypes.html#range
+
+range(start, stop[, step])
+stopの値になったら停止するので、forループ内に出てくる値はstart以上stop未満。
+
+```
+for i in range(1, 5):
+    print(i)
+     
+# output
+1
+2
+3
+4
+```

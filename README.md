@@ -51,6 +51,24 @@ s_list = [input().split() for i in range(n)]
 s_list = [map(int, input().split()) for i in range(n)]
 ```
 
+# 文字列
+
+大文字か小文字か判定
+
+```
+s.isupper()
+s.islower()
+```
+
+# 数値
+
+## 平方数
+
+```
+sn = sr ** 0.5
+sn = pow(sr, 0.5)
+```
+
 # list
 
 ## ソート

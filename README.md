@@ -53,7 +53,7 @@ s_list = [map(int, input().split()) for i in range(n)]
 
 # 文字列
 
-大文字か小文字か判定
+## 大文字か小文字か判定
 
 ```
 s.isupper()

@@ -24,6 +24,11 @@ procon-cheatsheet
   - [平方数](#%E5%B9%B3%E6%96%B9%E6%95%B0-1)
 - [文法](#%E6%96%87%E6%B3%95)
     - [range](#range)
+- [集合演算](#%E9%9B%86%E5%90%88%E6%BC%94%E7%AE%97)
+  - [和集合(OR)](#%E5%92%8C%E9%9B%86%E5%90%88or)
+  - [積集合(AND)](#%E7%A9%8D%E9%9B%86%E5%90%88and)
+- [数え上げ](#%E6%95%B0%E3%81%88%E4%B8%8A%E3%81%92)
+  - [Counter](#counter)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -160,4 +165,39 @@ for i in range(1, 5):
 2
 3
 4
+```
+
+# 集合演算
+
+## 和集合(OR)
+
+いずれかのグループに含まれる値をリストアップする。
+
+```
+s_union = s1 | s2
+s1.union(s2)
+```
+
+## 積集合(AND)
+
+いずれのグループにも含まれる値をリストアップする。
+
+```
+s_intersection = s1 & s2
+s1.intersection(s2)
+```
+
+# 数え上げ
+
+## Counter
+
+指定した文字列、配列内の要素を数え上げる。
+
+```
+from collections import Counter
+
+s = 'abcabcabcd'
+s_cntr = Counter(s) #-> Counter({'a': 3, 'b': 3, 'c': 3, 'd': 1})
+type(s_cntr)        #-> <class 'collections.Counter'>
+dict(s_cntr)        #-> {'a': 3, 'b': 3, 'c': 3, 'd': 1}
 ```

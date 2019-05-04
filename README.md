@@ -122,6 +122,16 @@ if not n & n - 1:
   print('power of 2')
 ```
 
+## 円周率
+
+mathモジュールを使う。
+
+```
+import math
+
+pi = math.pi
+```
+
 # 配列(list)
 
 ## 検索

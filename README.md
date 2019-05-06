@@ -70,6 +70,9 @@ m_list = list(map(int, input().split()))
 
 # タプルとして
 m_list = tuple(map(int, input().split()))
+
+# 別パターン
+m_list = [i for i in input().split()]
 ```
 
 ## 複数行

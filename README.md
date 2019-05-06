@@ -171,6 +171,10 @@ pi = math.pi
 
 ## ビット演算
 
+- 参考
+  - https://www.javadrive.jp/python/num/index4.html 
+  - https://www.javadrive.jp/python/num/index5.html
+
 ```
 a=11 # 0b1011
 b=14 # 0b1110
